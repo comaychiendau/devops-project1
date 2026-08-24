@@ -91,5 +91,18 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+    <repository>
+        <id>jfrog-artifactory</id>
+        <name>JFrog Releases</name>
+        <url>https://trial24g80d.jfrog.io/artifactory/java-login-releases-local</url>
+    </repository>
 
+    <snapshotRepository>
+        <id>jfrog-artifactory</id>
+        <name>JFrog Snapshots</name>
+        <url>https://trial24g80d.jfrog.io/artifactory/java-login-snapshots-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
+
