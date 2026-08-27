@@ -1,0 +1,59 @@
+{
+    "IamInstanceProfile":  {
+                               "Name":  "JavaLoginEC2Profile"
+                           },
+    "TagSpecifications":  [
+                              {
+                                  "Tags":  [
+                                               {
+                                                   "Key":  "Name",
+                                                   "Value":  "TomcatASGInstance"
+                                               },
+                                               {
+                                                   "Key":  "Project",
+                                                   "Value":  "devops-project1"
+                                               },
+                                               {
+                                                   "Key":  "Tier",
+                                                   "Value":  "application"
+                                               }
+                                           ],
+                                  "ResourceType":  "instance"
+                              },
+                              {
+                                  "Tags":  [
+                                               {
+                                                   "Key":  "Project",
+                                                   "Value":  "devops-project1"
+                                               },
+                                               {
+                                                   "Key":  "Tier",
+                                                   "Value":  "application"
+                                               }
+                                           ],
+                                  "ResourceType":  "volume"
+                              }
+                          ],
+    "SecurityGroupIds":  [
+                             "sg-0c3090ee74d56b6c7"
+                         ],
+    "InstanceType":  "t3.small",
+    "BlockDeviceMappings":  [
+                                {
+                                    "Ebs":  {
+                                                "VolumeSize":  10,
+                                                "DeleteOnTermination":  true,
+                                                "Encrypted":  true,
+                                                "VolumeType":  "gp3"
+                                            },
+                                    "DeviceName":  "/dev/xvda"
+                                }
+                            ],
+    "UserData":  "IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKCmV4ZWMgPiA+KHRlZSAvdmFyL2xvZy9qYXZhLWxvZ2luLXVzZXItZGF0YS5sb2cgfCBsb2dnZXIgLXQgdXNlci1kYXRhIC1zIDI+L2Rldi9jb25zb2xlKSAyPiYxCgpSRUdJT049ImFwLXNvdXRoZWFzdC0yIgpBUlRJRkFDVF9CVUNLRVQ9ImphdmEtbG9naW4tYXJ0aWZhY3RzLTAyOTQyMjk1MTk0Ni1hcC1zb3V0aGVhc3QtMiIKUkRTX0VORFBPSU5UPSJqYXZhLWxvZ2luLW15c3FsLmNqOG00Y2lxbzZtNi5hcC1zb3V0aGVhc3QtMi5yZHMuYW1hem9uYXdzLmNvbSIKUkRTX1NFQ1JFVF9BUk49ImFybjphd3M6c2VjcmV0c21hbmFnZXI6YXAtc291dGhlYXN0LTI6MDI5NDIyOTUxOTQ2OnNlY3JldDpyZHMhZGItYjBlNTFkOTUtODEzNC00NjYyLWIxOGItYTg5N2YxODVmMDNhLU9qY25OcyIKCmRuZiBpbnN0YWxsIC15IGphdmEtMjEtYW1hem9uLWNvcnJldHRvLWhlYWRsZXNzIGpxCgojIEVuc3VyZSBBV1MgU3lzdGVtcyBNYW5hZ2VyIGlzIHJ1bm5pbmcKaWYgISBzeXN0ZW1jdGwgZW5hYmxlIC0tbm93IGFtYXpvbi1zc20tYWdlbnQ7IHRoZW4KICAgIGRuZiBpbnN0YWxsIC15IGh0dHBzOi8vczMuYW1hem9uYXdzLmNvbS9lYzItZG93bmxvYWRzLXdpbmRvd3MvU1NNQWdlbnQvbGF0ZXN0L2xpbnV4X2FtZDY0L2FtYXpvbi1zc20tYWdlbnQucnBtCiAgICBzeXN0ZW1jdGwgZW5hYmxlIC0tbm93IGFtYXpvbi1zc20tYWdlbnQKZmkKCiMgQ3JlYXRlIGEgZGVkaWNhdGVkIGFwcGxpY2F0aW9uIHVzZXIKaWYgISBpZCBqYXZhYXBwID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgdXNlcmFkZCAtLXN5c3RlbSAtLWhvbWUtZGlyIC9vcHQvamF2YS1sb2dpbiAtLXNoZWxsIC9zYmluL25vbG9naW4gamF2YWFwcApmaQoKaW5zdGFsbCAtZCAtbyBqYXZhYXBwIC1nIGphdmFhcHAgLW0gMDc1MCAvb3B0L2phdmEtbG9naW4KCiMgRG93bmxvYWQgdGhlIFdBUiB1c2luZyB0aGUgRUMyIElBTSByb2xlCmF3cyBzMyBjcCBcCiAgICAiczM6Ly8ke0FSVElGQUNUX0JVQ0tFVH0vamF2YS1sb2dpbi1hcHAvYXBwLndhciIgXAogICAgL29wdC9qYXZhLWxvZ2luL2FwcC53YXIgXAogICAgLS1yZWdpb24gIiR7UkVHSU9OfSIKCmNob3duIGphdmFhcHA6amF2YWFwcCAvb3B0L2phdmEtbG9naW4vYXBwLndhcgpjaG1vZCAwNjQwIC9vcHQvamF2YS1sb2dpbi9hcHAud2FyCgojIFN0b3JlIG9ubHkgbm9uLXNlY3JldCBjb25maWd1cmF0aW9uCmNhdCA+IC9ldGMvamF2YS1sb2dpbi1hcHAuY29uZiA8PEVPRgpSRUdJT049IiR7UkVHSU9OfSIKUkRTX0VORFBPSU5UPSIke1JEU19FTkRQT0lOVH0iClJEU19TRUNSRVRfQVJOPSIke1JEU19TRUNSRVRfQVJOfSIKRU9GCgpjaG93biByb290OmphdmFhcHAgL2V0Yy9qYXZhLWxvZ2luLWFwcC5jb25mCmNobW9kIDA2NDAgL2V0Yy9qYXZhLWxvZ2luLWFwcC5jb25mCgojIFJldHJpZXZlIHRoZSBkYXRhYmFzZSBwYXNzd29yZCB3aGVuZXZlciB0aGUgc2VydmljZSBzdGFydHMKY2F0ID4gL29wdC9qYXZhLWxvZ2luL3N0YXJ0LnNoIDw8J1NUQVJUU0NSSVBUJwojIS9iaW4vYmFzaApzZXQgLWV1byBwaXBlZmFpbAoKc291cmNlIC9ldGMvamF2YS1sb2dpbi1hcHAuY29uZgoKU0VDUkVUX0pTT049IiQoL3Vzci9iaW4vYXdzIHNlY3JldHNtYW5hZ2VyIGdldC1zZWNyZXQtdmFsdWUgXAogICAgLS1zZWNyZXQtaWQgIiR7UkRTX1NFQ1JFVF9BUk59IiBcCiAgICAtLXJlZ2lvbiAiJHtSRUdJT059IiBcCiAgICAtLXF1ZXJ5IFNlY3JldFN0cmluZyBcCiAgICAtLW91dHB1dCB0ZXh0KSIKCkRCX1VTRVJOQU1FPSIkKHByaW50ZiAnJXMnICIke1NFQ1JFVF9KU09OfSIgfCAvdXNyL2Jpbi9qcSAtciAnLnVzZXJuYW1lJykiCkRCX1BBU1NXT1JEPSIkKHByaW50ZiAnJXMnICIke1NFQ1JFVF9KU09OfSIgfCAvdXNyL2Jpbi9qcSAtciAnLnBhc3N3b3JkJykiCgppZiBbWyAiJHtEQl9VU0VSTkFNRX0iID09ICJudWxsIiB8fCAiJHtEQl9QQVNTV09SRH0iID09ICJudWxsIiBdXTsgdGhlbgogICAgZWNobyAiUkRTIHVzZXJuYW1lIG9yIHBhc3N3b3JkIGlzIG1pc3NpbmciCiAgICBleGl0IDEKZmkKCmV4cG9ydCBTUFJJTkdfREFUQVNPVVJDRV9VUkw9ImpkYmM6bXlzcWw6Ly8ke1JEU19FTkRQT0lOVH06MzMwNi9qYXZhYXBwP3NzbE1vZGU9UkVRVUlSRUQmc2VydmVyVGltZXpvbmU9VVRDIgpleHBvcnQgU1BSSU5HX0RBVEFTT1VSQ0VfVVNFUk5BTUU9IiR7REJfVVNFUk5BTUV9IgpleHBvcnQgU1BSSU5HX0RBVEFTT1VSQ0VfUEFTU1dPUkQ9IiR7REJfUEFTU1dPUkR9IgpleHBvcnQgU1BSSU5HX0pQQV9ISUJFUk5BVEVfRERMX0FVVE89InVwZGF0ZSIKZXhwb3J0IFNQUklOR19KUEFfT1BFTl9JTl9WSUVXPSJmYWxzZSIKZXhwb3J0IFNFUlZFUl9QT1JUPSI4MDgwIgoKZXhlYyAvdXNyL2Jpbi9qYXZhIC1YbXMyNTZtIC1YbXg1MTJtIC1qYXIgL29wdC9qYXZhLWxvZ2luL2FwcC53YXIKU1RBUlRTQ1JJUFQKCmNob3duIHJvb3Q6amF2YWFwcCAvb3B0L2phdmEtbG9naW4vc3RhcnQuc2gKY2htb2QgMDc1MCAvb3B0L2phdmEtbG9naW4vc3RhcnQuc2gKCiMgUnVuIHRoZSBhcHBsaWNhdGlvbiBhcyBhIG1hbmFnZWQgc2VydmljZQpjYXQgPiAvZXRjL3N5c3RlbWQvc3lzdGVtL2phdmEtbG9naW4tYXBwLnNlcnZpY2UgPDwnU0VSVklDRScKW1VuaXRdCkRlc2NyaXB0aW9uPUphdmEgTG9naW4gQXBwbGljYXRpb24gd2l0aCBFbWJlZGRlZCBUb21jYXQKQWZ0ZXI9bmV0d29yay1vbmxpbmUudGFyZ2V0CldhbnRzPW5ldHdvcmstb25saW5lLnRhcmdldAoKW1NlcnZpY2VdClR5cGU9c2ltcGxlClVzZXI9amF2YWFwcApHcm91cD1qYXZhYXBwCldvcmtpbmdEaXJlY3Rvcnk9L29wdC9qYXZhLWxvZ2luCkVudmlyb25tZW50PUhPTUU9L29wdC9qYXZhLWxvZ2luCkV4ZWNTdGFydD0vb3B0L2phdmEtbG9naW4vc3RhcnQuc2gKUmVzdGFydD1hbHdheXMKUmVzdGFydFNlYz0xMApTdWNjZXNzRXhpdFN0YXR1cz0xNDMKTm9OZXdQcml2aWxlZ2VzPXRydWUKUHJpdmF0ZVRtcD10cnVlCgpbSW5zdGFsbF0KV2FudGVkQnk9bXVsdGktdXNlci50YXJnZXQKU0VSVklDRQoKc3lzdGVtY3RsIGRhZW1vbi1yZWxvYWQKc3lzdGVtY3RsIGVuYWJsZSAtLW5vdyBqYXZhLWxvZ2luLWFwcA==",
+    "ImageId":  "ami-0dfe08bb9a5a11ed2",
+    "MetadataOptions":  {
+                            "HttpTokens":  "required",
+                            "HttpPutResponseHopLimit":  1,
+                            "HttpEndpoint":  "enabled"
+                        }
+}

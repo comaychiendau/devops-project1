@@ -1,0 +1,11 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ReadJavaLoginApplication",
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::java-login-artifacts-029422951946-ap-southeast-2/java-login-app/app.war"
+    }
+  ]
+}
