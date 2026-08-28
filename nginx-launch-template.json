@@ -1,0 +1,66 @@
+{
+    "UserData":  "IyEvYmluL2Jhc2gKc2V0IC1ldW8gcGlwZWZhaWwKCmV4ZWMgPiA+KHRlZSAvdmFyL2xvZy9uZ2lueC11c2VyLWRhdGEubG9nIHwgbG9nZ2VyIC10IHVzZXItZGF0YSAtcyAyPi9kZXYvY29uc29sZSkgMj4mMQoKZG5mIGluc3RhbGwgLXkgbmdpbngKCiMgRW5zdXJlIFN5c3RlbXMgTWFuYWdlciBpcyBhdmFpbGFibGUKaWYgISBzeXN0ZW1jdGwgZW5hYmxlIC0tbm93IGFtYXpvbi1zc20tYWdlbnQ7IHRoZW4KICAgIGRuZiBpbnN0YWxsIC15IGh0dHBzOi8vczMuYW1hem9uYXdzLmNvbS9lYzItZG93bmxvYWRzLXdpbmRvd3MvU1NNQWdlbnQvbGF0ZXN0L2xpbnV4X2FtZDY0L2FtYXpvbi1zc20tYWdlbnQucnBtCiAgICBzeXN0ZW1jdGwgZW5hYmxlIC0tbm93IGFtYXpvbi1zc20tYWdlbnQKZmkKCmNhdCA+IC9ldGMvbmdpbngvbmdpbnguY29uZiA8PCdOR0lOWENPTkYnCnVzZXIgbmdpbng7Cndvcmtlcl9wcm9jZXNzZXMgYXV0bzsKCmVycm9yX2xvZyAvdmFyL2xvZy9uZ2lueC9lcnJvci5sb2cgbm90aWNlOwpwaWQgL3J1bi9uZ2lueC5waWQ7CgpldmVudHMgewogICAgd29ya2VyX2Nvbm5lY3Rpb25zIDEwMjQ7Cn0KCmh0dHAgewogICAgaW5jbHVkZSAvZXRjL25naW54L21pbWUudHlwZXM7CiAgICBkZWZhdWx0X3R5cGUgYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtOwoKICAgIGxvZ19mb3JtYXQgbWFpbiAnJHJlbW90ZV9hZGRyIC0gJHJlbW90ZV91c2VyIFskdGltZV9sb2NhbF0gIiRyZXF1ZXN0IiAnCiAgICAgICAgICAgICAgICAgICAgJyRzdGF0dXMgJGJvZHlfYnl0ZXNfc2VudCAiJGh0dHBfcmVmZXJlciIgJwogICAgICAgICAgICAgICAgICAgICciJGh0dHBfdXNlcl9hZ2VudCIgIiRodHRwX3hfZm9yd2FyZGVkX2ZvciInOwoKICAgIGFjY2Vzc19sb2cgL3Zhci9sb2cvbmdpbngvYWNjZXNzLmxvZyBtYWluOwoKICAgIHNlbmRmaWxlIG9uOwogICAgdGNwX25vcHVzaCBvbjsKICAgIGtlZXBhbGl2ZV90aW1lb3V0IDY1OwogICAgY2xpZW50X21heF9ib2R5X3NpemUgMTBtOwogICAgc2VydmVyX3Rva2VucyBvZmY7CgogICAgcmVzb2x2ZXIgMTY5LjI1NC4xNjkuMjUzIHZhbGlkPTMwcyBpcHY2PW9mZjsKCiAgICBzZXJ2ZXIgewogICAgICAgIGxpc3RlbiA4MCBkZWZhdWx0X3NlcnZlcjsKICAgICAgICBzZXJ2ZXJfbmFtZSBfOwoKICAgICAgICBsb2NhdGlvbiA9IC9uZ2lueC1oZWFsdGggewogICAgICAgICAgICBhY2Nlc3NfbG9nIG9mZjsKICAgICAgICAgICAgZGVmYXVsdF90eXBlIHRleHQvcGxhaW47CiAgICAgICAgICAgIHJldHVybiAyMDAgImhlYWx0aHlcbiI7CiAgICAgICAgfQoKICAgICAgICBsb2NhdGlvbiAvIHsKICAgICAgICAgICAgc2V0ICRiYWNrZW5kICJqYXZhLWxvZ2luLWludGVybmFsLW5sYi0zZmZkZGFjYjc0Y2U5M2VhLmVsYi5hcC1zb3V0aGVhc3QtMi5hbWF6b25hd3MuY29tIjsKCiAgICAgICAgICAgIHByb3h5X3Bhc3MgaHR0cDovLyRiYWNrZW5kOjgwODA7CiAgICAgICAgICAgIHByb3h5X2h0dHBfdmVyc2lvbiAxLjE7CgogICAgICAgICAgICBwcm94eV9zZXRfaGVhZGVyIEhvc3QgJGhvc3Q7CiAgICAgICAgICAgIHByb3h5X3NldF9oZWFkZXIgWC1SZWFsLUlQICRyZW1vdGVfYWRkcjsKICAgICAgICAgICAgcHJveHlfc2V0X2hlYWRlciBYLUZvcndhcmRlZC1Gb3IgJHByb3h5X2FkZF94X2ZvcndhcmRlZF9mb3I7CiAgICAgICAgICAgIHByb3h5X3NldF9oZWFkZXIgWC1Gb3J3YXJkZWQtUHJvdG8gJHNjaGVtZTsKICAgICAgICAgICAgcHJveHlfc2V0X2hlYWRlciBDb25uZWN0aW9uICIiOwoKICAgICAgICAgICAgcHJveHlfY29ubmVjdF90aW1lb3V0IDEwczsKICAgICAgICAgICAgcHJveHlfc2VuZF90aW1lb3V0IDYwczsKICAgICAgICAgICAgcHJveHlfcmVhZF90aW1lb3V0IDYwczsKCiAgICAgICAgICAgIHByb3h5X2hpZGVfaGVhZGVyIFgtUG93ZXJlZC1CeTsKICAgICAgICB9CgogICAgICAgIGFkZF9oZWFkZXIgWC1Db250ZW50LVR5cGUtT3B0aW9ucyAibm9zbmlmZiIgYWx3YXlzOwogICAgICAgIGFkZF9oZWFkZXIgWC1GcmFtZS1PcHRpb25zICJTQU1FT1JJR0lOIiBhbHdheXM7CiAgICAgICAgYWRkX2hlYWRlciBSZWZlcnJlci1Qb2xpY3kgInN0cmljdC1vcmlnaW4td2hlbi1jcm9zcy1vcmlnaW4iIGFsd2F5czsKICAgIH0KfQpOR0lOWENPTkYKCm5naW54IC10CnN5c3RlbWN0bCBlbmFibGUgbmdpbngKc3lzdGVtY3RsIHJlc3RhcnQgbmdpbng=",
+    "TagSpecifications":  [
+                              {
+                                  "Tags":  [
+                                               {
+                                                   "Key":  "Name",
+                                                   "Value":  "NginxASGInstance"
+                                               },
+                                               {
+                                                   "Key":  "Project",
+                                                   "Value":  "devops-project1"
+                                               },
+                                               {
+                                                   "Key":  "Tier",
+                                                   "Value":  "presentation"
+                                               }
+                                           ],
+                                  "ResourceType":  "instance"
+                              },
+                              {
+                                  "Tags":  [
+                                               {
+                                                   "Key":  "Project",
+                                                   "Value":  "devops-project1"
+                                               },
+                                               {
+                                                   "Key":  "Tier",
+                                                   "Value":  "presentation"
+                                               }
+                                           ],
+                                  "ResourceType":  "volume"
+                              }
+                          ],
+    "IamInstanceProfile":  {
+                               "Name":  "NginxEC2Profile"
+                           },
+    "NetworkInterfaces":  [
+                              {
+                                  "Groups":  [
+                                                 "sg-006402d047ad9e9d7"
+                                             ],
+                                  "DeviceIndex":  0,
+                                  "DeleteOnTermination":  true,
+                                  "AssociatePublicIpAddress":  true
+                              }
+                          ],
+    "InstanceType":  "t3.micro",
+    "BlockDeviceMappings":  [
+                                {
+                                    "Ebs":  {
+                                                "VolumeSize":  8,
+                                                "DeleteOnTermination":  true,
+                                                "Encrypted":  true,
+                                                "VolumeType":  "gp3"
+                                            },
+                                    "DeviceName":  "/dev/xvda"
+                                }
+                            ],
+    "ImageId":  "ami-0dfe08bb9a5a11ed2",
+    "MetadataOptions":  {
+                            "HttpTokens":  "required",
+                            "HttpPutResponseHopLimit":  1,
+                            "HttpEndpoint":  "enabled"
+                        }
+}
