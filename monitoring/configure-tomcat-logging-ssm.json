@@ -1,0 +1,13 @@
+{
+  "commands": [
+    "install -d -m 0755 /var/log/java-login-app",
+    "touch /var/log/java-login-app/application.log",
+    "chmod 0644 /var/log/java-login-app/application.log",
+    "install -d -m 0755 /etc/systemd/system/java-login-app.service.d",
+    "printf '[Service]\\nStandardOutput=append:/var/log/java-login-app/application.log\\nStandardError=append:/var/log/java-login-app/application.log\\n' > /etc/systemd/system/java-login-app.service.d/logging.conf",
+    "systemctl daemon-reload",
+    "systemctl restart java-login-app",
+    "systemctl is-active java-login-app",
+    "test -f /var/log/java-login-app/application.log && echo log-file-ready"
+  ]
+}
